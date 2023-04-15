@@ -42,3 +42,21 @@ router.get("/:id"),
         res.status(500).json(err);
     }
   }
+
+  router.put('/:id'),
+  (req, res) => {
+    Employee.update(
+        {
+            id: req.body.id,
+            first_name: req.body.first_name,
+            last_name: req.body.last_name,
+            role_id: req.body.role_id,
+            manager_id: req.body.manager_id,
+        },
+        {
+        where: {
+            id: req.params.id
+        }
+    }
+    )
+  }
