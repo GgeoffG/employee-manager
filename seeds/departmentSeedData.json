@@ -1,0 +1,24 @@
+[
+    {
+        "name" : "Lumber"
+    },
+    {
+        "name" : "Electrical"
+    },
+    {
+        "name" : "Hardware"
+    },
+    {
+        "name" : "Flooring"
+    },
+    {
+        "name" : "Garden"
+    },
+    {
+        "name" : "Plumbing"
+    },
+    {
+        "name" : "Customer Service"
+    }
+
+]

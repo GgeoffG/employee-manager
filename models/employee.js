@@ -7,6 +7,8 @@ Employee.init(
     {
         id: {
             type: DataTypes.INTEGER,
+            primaryKey: true,
+            autoIncrement: true,
 
         },
         first_name: {
@@ -22,11 +24,22 @@ Employee.init(
             }
         },
         role_id: {
-            type: DataTypes.INTEGER
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'role',
+                key: 'id'
+            }
         },
         manager_id: {
             type: DataTypes.INTEGER
-        }
+        },
+    },
+    {
+        sequelize,
+        timestamps: true,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'employee',
     }
 )
 

@@ -9,4 +9,5 @@ Employee.belongsTo(Role, {
     foreignKey: 'role_id'
 })
 
+
 module.exports= {Role, Department, Employee}
