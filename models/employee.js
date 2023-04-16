@@ -40,6 +40,7 @@ Employee.init(
         freezeTableName: true,
         underscored: true,
         modelName: 'employee',
+        freezeTableName: true,
     }
 )
 
