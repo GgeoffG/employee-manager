@@ -1,24 +1,18 @@
 [
     {
-        "name" : "Lumber"
+        "name" : "Sales"
     },
     {
-        "name" : "Electrical"
+        "name" : "Freight"
     },
     {
-        "name" : "Hardware"
-    },
-    {
-        "name" : "Flooring"
-    },
-    {
-        "name" : "Garden"
-    },
-    {
-        "name" : "Plumbing"
+        "name" : "janitorial"
     },
     {
         "name" : "Customer Service"
+    },
+    {
+        "name" : "Management"
     }
 
 ]

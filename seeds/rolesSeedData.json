@@ -1,22 +1,22 @@
 [
     {
-        "title": "floor staff",
+        "title": "Floor Staff",
         "salary": "$40,000"
     },
     {
-        "title": "pro-representative",
+        "title": "Forklift Operator",
         "salary": "$50,000"
     },
     {
-        "title": "frieght",
+        "title": "Janitor",
         "salary": "$30,000"
     },
     {
-        "title": "janitor",
-        "salary": "$30,000"
+        "title": "Customer Representative",
+        "salary": "$35,000"
     },
     {
-        "title": "supervisor",
+        "title": "Supervisor",
         "salary": "$60,000"
     }
 ]
