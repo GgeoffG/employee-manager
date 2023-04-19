@@ -1,22 +1,22 @@
 [
     {
         "title": "Floor Staff",
-        "salary": "$40,000"
+        "salary": "15.00"
     },
     {
         "title": "Forklift Operator",
-        "salary": "$50,000"
+        "salary": "17.5"
     },
     {
         "title": "Janitor",
-        "salary": "$30,000"
+        "salary": "14.50"
     },
     {
         "title": "Customer Representative",
-        "salary": "$35,000"
+        "salary": "15.75"
     },
     {
         "title": "Supervisor",
-        "salary": "$60,000"
+        "salary": "20.00"
     }
 ]
