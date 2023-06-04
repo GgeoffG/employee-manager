@@ -1,66 +1,86 @@
 [
-    {
-       "first_name": "Alex",
-       "last_name": "Montez"
-    },
-    {
-        "first_name": "John",
-        "last_name": "Bones"
-     },
-     {
-        "first_name": "Caleb",
-        "last_name": "Dom"
-     },
-     {
-        "first_name": "Keanu",
-        "last_name": "Reeves"
-     },
-     {
-        "first_name": "Rey",
-        "last_name": "Mysterio"
-     },
-     {
-        "first_name": "Finn",
-        "last_name": "Balor"
-     },
-     {
-        "first_name": "Dwayne",
-        "last_name": "Johnson"
-     },
-     {
-        "first_name": "Alexa",
-        "last_name": "Bliss"
-     },
-     {
-        "first_name": "Trish",
-        "last_name": "Stratus"
-     },
-     {
-        "first_name": "Robert",
-        "last_name": "Downey"
-     },
-     {
-        "first_name": "Natalie",
-        "last_name": "Portman"
-     },
-     {
-        "first_name": "Marshall",
-        "last_name": "Matthers"
-     },
-     {
-        "first_name": "Inigo",
-        "last_name": "Montoya"
-     },
-     {
-        "first_name": "Becky",
-        "last_name": "Lynch"
-     },
-     {
-        "first_name": "Andre",
-        "last_name": "The Giant"
-     },
-     {
-        "first_name": "Alysha",
-        "last_name": "Lawson"
-     }
+  {
+    "first_name": "Alex",
+    "last_name": "Montez",
+    "role_id": 1,
+    "manager": true
+  },
+  {
+    "first_name": "John",
+    "last_name": "Bones",
+    "role_id": 2,
+    "manager": true
+  },
+  {
+    "first_name": "Caleb",
+    "last_name": "Dom",
+    "role_id": 3,
+    "manager": true
+  },
+  {
+    "first_name": "Keanu",
+    "last_name": "Reeves",
+    "role_id": 4,
+    "manager": true
+  },
+  {
+    "first_name": "Rey",
+    "last_name": "Mysterio",
+    "role_id": 1
+  },
+  {
+    "first_name": "Finn",
+    "last_name": "Balor",
+    "role_id": 2
+  },
+  {
+    "first_name": "Dwayne",
+    "last_name": "Johnson",
+    "role_id": 3
+  },
+  {
+    "first_name": "Alexa",
+    "last_name": "Bliss",
+    "role_id": 4
+  },
+  {
+    "first_name": "Trish",
+    "last_name": "Stratus",
+    "role_id": 1
+  },
+  {
+    "first_name": "Robert",
+    "last_name": "Downey",
+    "role_id": 2
+  },
+  {
+    "first_name": "Natalie",
+    "last_name": "Portman",
+    "role_id": 3
+  },
+  {
+    "first_name": "Marshall",
+    "last_name": "Matthers",
+    "role_id": 4
+  },
+  {
+    "first_name": "Inigo",
+    "last_name": "Montoya",
+    "role_id": 1
+  },
+  {
+    "first_name": "Becky",
+    "last_name": "Lynch",
+    "role_id": 2
+  },
+  {
+    "first_name": "Andre",
+    "last_name": "The Giant",
+    "role_id": 3
+  },
+  {
+    "first_name": "Alysha",
+    "last_name": "Lawson",
+    "role_id": 4
+  }
 ]

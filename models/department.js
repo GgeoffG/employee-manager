@@ -16,7 +16,7 @@ Department.init (
     },
     {
         sequelize,
-        timestamps: true,
+        timestamps: false,
         modelName: 'department',
         freezeTableName: true
     }
