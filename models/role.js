@@ -20,15 +20,20 @@ Role.init(
             type: DataTypes.DECIMAL
         },
         department_id:{
-            type:DataTypes.INTEGER
+            type:DataTypes.INTEGER,
+            references: {
+                model: 'department',
+                key: 'id'
+            }
 
         },
  },
  {
     sequelize,
-    timestamps:true,
+    timestamps:false,
     underscored:true,
-    modelName: 'role'
+    modelName: 'role',
+    freezeTableName: true
  }
 
     

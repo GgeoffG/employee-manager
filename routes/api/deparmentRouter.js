@@ -8,6 +8,13 @@ router.get("/", async (req, res) => {
     const departmentData = await Department.findAll({
       include: [{ model: Employee, model: Role }],
     });
+    const formattedData = departmentData.map((department) => {
+      const { dataValues, roles } = department;
+      const formattedRoles = roles.map((role) => role.dataValues);
+      return { ...dataValues, roles: JSON.stringify(formattedRoles) };
+    });
+
+    console.table(formattedData);
     res.status(200).json(departmentData);
   } catch (err) {
     res.status(500).json(err);
@@ -31,14 +38,16 @@ router.get("/:id"),
     }
   };
 
-  //Create a new department
-  router.post('/'),
+//Create a new department
+router.post("/"),
   async (req, res) => {
-    try{
-        const departmentData = await Department.create(req.body);
-        console.log('role created')
-        return res.json(departmentData)
+    try {
+      const departmentData = await Department.create(req.body);
+      console.log("role created");
+      return res.json(departmentData);
     } catch (err) {
-        res.status(500).json(err);
+      res.status(500).json(err);
     }
-  }
+  };
+
+module.exports = router;

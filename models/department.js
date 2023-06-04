@@ -16,9 +16,10 @@ Department.init (
     },
     {
         sequelize,
-        timestamps: true,
-        modelName: 'department'
+        timestamps: false,
+        modelName: 'department',
+        freezeTableName: true
     }
 )
 
-module.exprots = Department
+module.exports = Department

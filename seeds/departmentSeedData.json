@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Sales"
+  },
+  {
+    "id": 2,
+    "name": "Freight"
+  },
+  {
+    "id": 3,
+    "name": "janitorial"
+  },
+  {
+    "id": 4,
+    "name": "Customer Service"
+  }
+]

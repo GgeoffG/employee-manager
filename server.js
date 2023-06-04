@@ -1,16 +1,16 @@
-const express = require ('express');
-const routes = require ('./routesroutes');
-const sequelize = require('./config/connection')
-const inquirer = require('inquirer')
+const express = require("express");
+const routes = require("./routes/index");
+const sequelize = require("./config/connection");
+const inquirer = require("inquirer");
 
-const app = express()
-const PORT = process.env.PORT || 8080
+const app = express();
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 
-app.use(routes)
+app.use(routes);
 
-sequelize.sync({force: false}).the(() => {
-    app.listen(PORT, ()=> console.log (`Listening on ${PORT}`))
-})
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log(`Listening on ${PORT}`));
+});

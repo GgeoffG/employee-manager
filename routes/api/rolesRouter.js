@@ -31,16 +31,16 @@ router.get("/:id"),
     }
   };
 
-  //Create a new Role
-  router.post('/'),
+//Create a new Role
+router.post("/"),
   async (req, res) => {
-    try{
-        const roleData = await Role.create(req.body);
-        console.log('role created')
-        return res.json(roleData)
+    try {
+      const roleData = await Role.create(req.body);
+      console.log("role created");
+      return res.json(roleData);
     } catch (err) {
-        res.status(500).json(err);
+      res.status(500).json(err);
     }
-  }
+  };
 
-  
+module.exports = router;

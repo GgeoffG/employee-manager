@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS storemanager_db;
+CREATE DATABASE IF NOT EXISTS storemanager_db;
